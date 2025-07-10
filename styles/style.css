@@ -44,6 +44,7 @@ header{
     background-image: url('../Assets/Hero-bg.png');
     width: 100%;
     height: 700px;
+    margin-bottom: 120px;
 }
 .banner{
 
@@ -78,11 +79,31 @@ margin: 0px 150px 0 150px;
     font-size: 65px;
 }
 
-
 /* header Style end */
 
 /* main Style start */
 
+.action-section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-title{
+   color: #252432;
+   font-weight: bold;
+    font-size: 42px; 
+}
+
+.action-description{
+    color: #25243298;
+    font-size: 24px;
+}
+
+.action-img{
+    border-radius: 16px;
+}
 /* main Style end */
 
 /* footer Style start */
