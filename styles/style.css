@@ -165,7 +165,7 @@ margin: 0px 150px 0 150px;
 .review-boss-container{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
     justify-content: center;
     margin: auto;
     
@@ -176,7 +176,7 @@ margin: 0px 150px 0 150px;
     padding: 30px 20px 30px 30px ;
     margin-right: 20px;
     /* border: 5px solid blue; */
-    background-color: #f2ededef;
+    background-color: #f2eded7e;
     /* box-shadow: 50px 50px white; */
     border-radius: 10px;
     
@@ -230,6 +230,37 @@ margin: 0px 150px 0 150px;
      color: #2524325e;
 }
 /* review-section end */
+
+
+/* Focus section start */
+.Focus-section{
+     background-color: #f2eded7e;
+    border-radius: 10px;
+        width: 60%;
+        margin: auto;
+    padding: 70px 150px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.Focus-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.Focus-description{
+    color: #00000096;
+}
+.focus-btn{
+    /* display: block; */
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Focus-img{
+    border-radius: 50px;
+}
+/* Focus section end */
 
 /* main Style end */
 
