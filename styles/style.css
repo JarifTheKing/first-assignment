@@ -32,8 +32,8 @@
     
 }
 .primary-btn:hover{
-    color: #ffffff;
-    background-color: darkmagenta;
+    color: #e40d0d;
+    background-color:rgb(238, 207, 182) ;
 }
 
 
@@ -88,6 +88,7 @@ margin: 0px 150px 0 150px;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .action-title{
@@ -103,6 +104,48 @@ margin: 0px 150px 0 150px;
 
 .action-img{
     border-radius: 16px;
+}
+
+
+/* <!-- user section start -->  */
+
+/* <!-- user section end -->  */
+.user-section{
+    background-color: #4d47ff21;
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    border-radius: 14px;
+    padding: 50px 140px;
+    
+
+}
+
+.user-title{
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+}
+
+.user-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    /* margin-right: 700px; */
+}
+
+.user-container-title{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0;
+}
+
+.user-container-description{
+    color: #0000007a;
+    font-size: 20px;
 }
 /* main Style end */
 
