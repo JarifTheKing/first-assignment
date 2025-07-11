@@ -189,9 +189,7 @@ margin: 0px 150px 0 150px;
     
 }
 
-.review-star{
 
-}
 .fa-star{
     color: #ffb805;
     margin-right: 5px;
@@ -218,10 +216,6 @@ margin: 0px 150px 0 150px;
     width: 70px;
     border-radius: 50%;
     margin-right: 20px;
-}
-
-.reviewer-address{
-
 }
 
 .reviewer-name{
