@@ -21,6 +21,9 @@
 /* Font Styles */
 
 /* Common Styles start */
+.body{
+    background-color: #f5f8ff;
+}
 .primary-btn{
     color: #ffffff;
     background-color: #4E47FF;
@@ -36,7 +39,9 @@
     background-color:rgb(238, 207, 182) ;
 }
 
-
+/* form{
+    display: block;
+} */
 /* Common Styles end */
 
 /* header Style start */
@@ -95,6 +100,7 @@ margin: 0px 150px 0 150px;
    color: #252432;
    font-weight: bold;
     font-size: 42px; 
+    margin-bottom: 0;
 }
 
 .action-description{
@@ -176,7 +182,9 @@ margin: 0px 150px 0 150px;
     padding: 30px 20px 30px 30px ;
     margin-right: 20px;
     /* border: 5px solid blue; */
-    background-color: #f2eded7e;
+        border: 1px solid rgba(119, 118, 118, 0.13);
+
+    background-color: white;
     /* box-shadow: 50px 50px white; */
     border-radius: 10px;
     
@@ -234,7 +242,7 @@ margin: 0px 150px 0 150px;
 
 /* Focus section start */
 .Focus-section{
-     background-color: #f2eded7e;
+     background-color: white;
     border-radius: 10px;
         width: 60%;
         margin: auto;
@@ -247,6 +255,7 @@ margin: 0px 150px 0 150px;
 .Focus-title{
     font-size: 50px;
     font-weight: bold;
+    margin-bottom: 0;
 }
 .Focus-description{
     color: #00000096;
@@ -262,6 +271,68 @@ margin: 0px 150px 0 150px;
 }
 /* Focus section end */
 
+
+/* Form section start  */
+.form-section{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+.form-container-1{
+
+}
+.form-title{
+    font-size: 95px;
+    font-weight: bold;
+}
+
+.form-container-2{
+    
+}
+
+.form-label{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.form-input{
+    border: 1px solid rgba(119, 118, 118, 0.13);
+    border-radius: 10px;
+    padding: 20px 100px 20px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000060;
+    background-color: 
+    white;
+    margin-bottom: 20px;
+}
+
+.form-area{
+    border: 1px solid rgba(119, 118, 118, 0.13);
+    border-radius: 10px;
+    padding: 20px 60px 20px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000060;
+    background-color: 
+    white;
+}
+
+.form-btn{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 140px 10px 140px;
+    margin-top: 20px;
+}
+/* Form section end  */
 /* main Style end */
 
 /* footer Style start */
